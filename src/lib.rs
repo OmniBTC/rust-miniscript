@@ -90,7 +90,7 @@
 #![deny(unused_imports)]
 #![deny(missing_docs)]
 
-// #![recursion_limit = "1024"]
+#![recursion_limit = "4196"]
 
 #[cfg(target_pointer_width = "16")]
 compile_error!(
